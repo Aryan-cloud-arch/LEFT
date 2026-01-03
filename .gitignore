@@ -1,0 +1,37 @@
+# ═══════════════════════════════════════════════════════════════
+# Git Ignore File
+# GitHub: github.com/Aryan-cloud-arch/LEFT
+# ═══════════════════════════════════════════════════════════════
+
+# Session files (IMPORTANT - contains login info)
+*.session
+*.session-journal
+
+# Config with credentials (user should create their own)
+config.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Log files (optional - you may want to keep these)
+logs/*.txt
+logs/*.log
+!logs/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+env/
+.env
